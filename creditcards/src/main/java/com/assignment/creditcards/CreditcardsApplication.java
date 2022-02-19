@@ -1,0 +1,15 @@
+package com.assignment.creditcards;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan
+public class CreditcardsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CreditcardsApplication.class, args);
+	}
+
+}
